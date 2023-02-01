@@ -1,0 +1,43 @@
+.emptyfavourites {
+  margin: auto;
+  text-align: center;
+  padding: 10vmax;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyfavourites > a {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border: none;
+  padding: 1vmax 3vmax;
+  cursor: pointer;
+  font: 400 1.5vmax "Roboto";
+  text-decoration: none;
+}
+.favouriteimage {
+  width: 8vmax;
+  height: 8vmax;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 5%;
+  object-fit: contain;
+  border: 1px solid lightgray;
+}
+@media (min-width: 320px) and (max-width: 620px) {
+  .favouriteimage {
+    width: 12vmax;
+    height: 12vmax;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5%;
+    object-fit: contain;
+    border: 1px solid lightgray;
+  }
+  .emptyfavourites > a {
+    font: 400 2vmax "Roboto";
+  }
+}

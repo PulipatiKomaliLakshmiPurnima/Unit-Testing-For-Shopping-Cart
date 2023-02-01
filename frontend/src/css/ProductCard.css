@@ -1,0 +1,22 @@
+.carddata {
+  text-align: center;
+  width: 15rem;
+  height: 20rem;
+  margin-bottom: 20px;
+}
+.image {
+  width: 70%;
+  display: block;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+}
+.data {
+  color: blue;
+  margin-left: 80%;
+  float: right;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}

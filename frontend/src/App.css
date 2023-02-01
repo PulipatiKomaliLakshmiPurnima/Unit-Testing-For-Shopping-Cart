@@ -1,0 +1,24 @@
+.mobilesortfilter {
+  display: none;
+}
+.filterhide {
+  display: block;
+}
+.sortingdata {
+  float: right;
+}
+@media (max-width: 768px) {
+  .mobilesortfilter {
+    display: flex;
+    background: white;
+    border: none;
+    cursor: pointer;
+  }
+  .filterhide {
+    display: none;
+  }
+  .sortingdata {
+    float: left;
+    margin-top: 5px;
+  }
+}

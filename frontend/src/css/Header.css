@@ -1,0 +1,77 @@
+.icons h3:hover {
+  color: blue;
+}
+
+.header1 {
+  height: 40px;
+}
+
+.header2 {
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+  margin-top: 50px;
+}
+.header2 h6 {
+  color: black;
+}
+.categoryd h6:hover {
+  color: blue;
+}
+.heart_numbers {
+  width: 25px;
+  height: 20px;
+  background-color: #95c730;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  margin-left: -10px;
+  vertical-align: top;
+}
+.cart_numbers {
+  width: 25px;
+  height: 20px;
+  background-color: #95c730;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  margin-left: -10px;
+  vertical-align: top;
+}
+.mobile {
+  display: none;
+}
+.menu {
+  display: none;
+}
+@media (max-width: 760px) {
+  .header2 {
+    margin-top: 60px;
+  }
+  .brand {
+    width: 50%;
+  }
+}
+@media (max-width: 1020px) {
+  .menu {
+    display: flex;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header1 {
+    height: 60px;
+  }
+  .search {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
